@@ -1,0 +1,2 @@
+2021/05/17 15:26:49 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/key.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/key.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/05/17 15:27:59 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/key.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/key.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
