@@ -11,12 +11,12 @@ docker-compose up -d
 ```
 3. open page 
 ```
-localhost:8000
+localhost:port
 ```
 ``or``
 ```
 docker inspect testing_nginx_1 |grep 'Gateway' 
-{ip}:8000
+{ip}:port
 ```
 ``or``
 ```
