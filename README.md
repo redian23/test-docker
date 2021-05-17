@@ -20,6 +20,6 @@ docker inspect testing_nginx_1 |grep 'Gateway'
 ```
 ``or``
 ```
-ip a | grep inet
+ip a | grep docker
 local_ip:8000
 ```
