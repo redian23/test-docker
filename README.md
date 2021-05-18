@@ -15,12 +15,12 @@ localhost:port
 ```
 ``or``
 ```
-docker inspect testing_nginx_1 |grep 'Gateway' 
+docker inspect testing_nginx_1 | grep 'Gateway' 
 {ip}:port
 ```
 ``or``
 ```
 ip a | grep docker
-docker_ip:{port}
+{docker_ip}:port
 ```
 On `docker_ip/` page open, but if press 'F5' or "reload page" page is close. 
